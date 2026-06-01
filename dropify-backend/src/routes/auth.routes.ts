@@ -4,6 +4,7 @@ import { protect } from '../middleware/auth.middleware';
 
 const router = Router();
 
+// Public routes
 router.post('/register', registerUser);
 router.post('/login', loginUser);
 router.get('/profile', protect, getProfile);

@@ -9,6 +9,8 @@ const generateToken = (id: string): string => {
     });
 };
 
+// api for user registration, login and profile retrieval
+
 export const registerUser = async (req: Request, res: Response): Promise<void> => {
     try {
         const { fullName, email, phone, password, role } = req.body;
