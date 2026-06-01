@@ -10,6 +10,7 @@ export interface IUser extends Document {
     updatedAt: Date;
 }
 
+// User schema definition
 const userSchema = new Schema<IUser>(
     {
         fullName: {
