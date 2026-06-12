@@ -14,4 +14,5 @@ export const ENDPOINTS = {
     MARK_DELIVERED: (orderId: string) => `${BASE}/orders/${orderId}/deliver`,
     MY_ORDERS: `${BASE}/orders/my`,
     EARNINGS: `${BASE}/orders/earnings`,
+    UPDATE_PROFILE: `${BASE}/auth/profile`,
 };
