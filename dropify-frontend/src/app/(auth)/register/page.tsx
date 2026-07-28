@@ -67,7 +67,6 @@ export default function RegisterPage() {
     return (
         <div className="min-h-screen bg-[#F5F5F5] flex items-center justify-center px-4 py-12 relative overflow-hidden">
 
-            {/* Background accents */}
             <div className="absolute top-[-10%] right-[-5%] w-96 h-96 bg-[#FF6B35] opacity-5 rounded-full blur-3xl pointer-events-none" />
             <div className="absolute bottom-[-10%] left-[-5%] w-72 h-72 bg-[#1A1A2E] opacity-5 rounded-full blur-3xl pointer-events-none" />
 
