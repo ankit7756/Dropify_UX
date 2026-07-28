@@ -98,7 +98,6 @@ export default function OrderDetailPage() {
                     ← Back to orders
                 </Link>
 
-                {/* Status Card */}
                 <div className="bg-gradient-to-br from-[#1A1A2E] to-[#2d2d4e] rounded-2xl p-8 text-white">
                     <div className="flex items-center justify-between mb-4">
                         <span className={`text-xs font-semibold px-3 py-1.5 rounded-full ${status.bg} ${status.text}`}>
