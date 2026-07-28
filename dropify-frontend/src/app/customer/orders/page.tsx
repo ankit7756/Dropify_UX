@@ -71,8 +71,8 @@ export default function OrdersPage() {
                             key={f}
                             onClick={() => setFilter(f)}
                             className={`px-4 py-1.5 rounded-full text-xs font-semibold transition-all capitalize ${filter === f
-                                    ? 'bg-[#FF6B35] text-white'
-                                    : 'bg-white text-gray-500 hover:text-[#FF6B35] border border-gray-200'
+                                ? 'bg-[#FF6B35] text-white'
+                                : 'bg-white text-gray-500 hover:text-[#FF6B35] border border-gray-200'
                                 }`}
                         >
                             {f === 'picked_up' ? 'Picked Up' : f.charAt(0).toUpperCase() + f.slice(1)}
@@ -80,7 +80,6 @@ export default function OrdersPage() {
                     ))}
                 </div>
 
-                {/* Orders List */}
                 {isLoading ? (
                     <div className="bg-white rounded-2xl p-8 text-center shadow-sm">
                         <p className="text-gray-400 text-sm">Loading orders...</p>
