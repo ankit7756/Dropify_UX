@@ -50,7 +50,6 @@ export default function CustomerProfilePage() {
                     <p className="text-gray-500 text-sm mt-1">Manage your account information</p>
                 </div>
 
-                {/* Avatar Card */}
                 <div className="bg-white rounded-2xl p-6 shadow-sm flex items-center gap-5">
                     <div className="w-16 h-16 rounded-full bg-orange-100 flex items-center justify-center text-[#FF6B35] font-bold text-2xl flex-shrink-0">
                         {user?.fullName?.charAt(0) ?? 'U'}
