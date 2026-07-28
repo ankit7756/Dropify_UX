@@ -59,7 +59,6 @@ export default function DriverDashboard() {
                 </div>
             </div>
 
-            {/* Stats */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {[
                     { label: 'Total Earnings', value: `NPR ${earnings.totalEarnings}`, icon: '💰', color: 'text-[#FF6B35]' },
