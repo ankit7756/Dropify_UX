@@ -10,7 +10,6 @@ const schema = z.object({
     email: z.string().email('Enter a valid email address'),
 });
 
-// new addition: define the FormData type based on the schema
 type FormData = z.infer<typeof schema>;
 
 export default function ForgotPasswordPage() {
