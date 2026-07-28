@@ -55,7 +55,6 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            {/* How It Works */}
             <section className="py-20 px-6 bg-white">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-14">
