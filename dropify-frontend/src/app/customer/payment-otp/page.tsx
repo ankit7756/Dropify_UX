@@ -4,6 +4,7 @@ import { useState, useRef, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import AuthGuard from '../_components/AuthGuard';
 
+// function to handle OTP input and verification
 function PaymentOTPContent() {
     const searchParams = useSearchParams();
     const router = useRouter();
@@ -31,6 +32,7 @@ function PaymentOTPContent() {
             inputs.current[index - 1]?.focus();
         }
     };
+
 
     const handleVerify = async () => {
         const code = otp.join('');
