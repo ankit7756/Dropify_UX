@@ -82,7 +82,6 @@ export default function CustomerDashboard() {
                 ))}
             </div>
 
-            {/* Quick Actions */}
             <div>
                 <h2 className="text-lg font-bold text-[#1A1A2E] mb-4">Quick Actions</h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
